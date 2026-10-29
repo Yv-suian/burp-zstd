@@ -30,3 +30,6 @@ raw_dump.txt
 
 # 根目录这份是本地加载用的副本，成品在 dist/
 /burp-zstd.jar
+
+# 成品 jar 走 GitHub Releases，不进仓库
+dist/

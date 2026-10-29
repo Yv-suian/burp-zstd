@@ -35,7 +35,7 @@ zstd-related entries: 0
 
 ## 安装
 
-1. 下载 `dist/burp-zstd.jar`（或用下面的方法自己构建）
+1. 从 [Releases](https://github.com/Yv-suian/burp-zstd/releases) 下载 `burp-zstd.jar`（或用下面的方法自己构建）
 2. Burp → **Extender → Extensions → Add**
 3. Extension type 选 **Java**，选择 `burp-zstd.jar`
 4. 加载成功后在 Output 里能看到 `[zstd] Zstd Decoder loaded (v1.3.0)`
@@ -102,7 +102,7 @@ Burp Suite does **not** support `Content-Encoding: zstd` (verified: zero zstd cl
 - Pretty-prints JSON (no third-party dependency).
 - Does not touch highlight colors or notes (no conflict with HAE).
 
-**Install**: Extender → Extensions → Add → type `Java` → pick `dist/burp-zstd.jar`.
+**Install**: download `burp-zstd.jar` from [Releases](https://github.com/Yv-suian/burp-zstd/releases), then Extender → Extensions → Add → type `Java` → pick the jar.
 
 **Limitations**: no zstd dictionary support; request bodies are never modified by the handler (they'd be sent as plaintext); zstd only (gzip/brotli handled natively by Burp).
 
