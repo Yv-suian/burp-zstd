@@ -1,0 +1,29 @@
+# 构建产物
+target/
+*.class
+cp.txt
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.ipr
+*.iws
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# ---- 测试/抓包环境，绝对不要进仓库 ----
+zstd_lab.py
+logproxy.py
+web/
+pw-proxy*.json
+.playwright-cli/
+*.burp
+*.log
+debug_output.bin
+clean_hex.txt
+raw_dump.txt
+
+# 注意：dist/ 下的成品 jar 是故意保留的，不要加进 ignore
