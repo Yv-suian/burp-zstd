@@ -27,3 +27,6 @@ clean_hex.txt
 raw_dump.txt
 
 # 注意：dist/ 下的成品 jar 是故意保留的，不要加进 ignore
+
+# 根目录这份是本地加载用的副本，成品在 dist/
+/burp-zstd.jar
